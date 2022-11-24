@@ -1,0 +1,28 @@
+2022-11-24 20:28:57; host: localhost:8888; ip: ::1; file: /Applications/MAMP/htdocs/cash-master/lib/db/sqlite.php; line: 27; msg: [19] NOT NULL constraint failed: currency.rate; stack: #0 /Applications/MAMP/htdocs/cash-master/lib/db/sqlite.php(76): SQLITE_DB->raiseError()
+#1 /Applications/MAMP/htdocs/cash-master/lib/db/db.php(85): SQLITE_DB->_exec('INSERT INTO cur...', Array)
+#2 /Applications/MAMP/htdocs/cash-master/lib/cash.php(383): DB->exec('INSERT INTO cur...', '20')
+#3 /Applications/MAMP/htdocs/cash-master/lib/cash.php(431): Cash->add_refbook('20', 'currency')
+#4 /Applications/MAMP/htdocs/cash-master/lib/cash.php(591): Cash->refbook_check(Array, Array)
+#5 /Applications/MAMP/htdocs/cash-master/ajax/add.php(21): Cash->add(Array, Array)
+#6 {main}
+2022-11-24 20:29:06; host: localhost:8888; ip: ::1; file: /Applications/MAMP/htdocs/cash-master/lib/db/sqlite.php; line: 27; msg: [19] NOT NULL constraint failed: currency.rate; stack: #0 /Applications/MAMP/htdocs/cash-master/lib/db/sqlite.php(76): SQLITE_DB->raiseError()
+#1 /Applications/MAMP/htdocs/cash-master/lib/db/db.php(85): SQLITE_DB->_exec('INSERT INTO cur...', Array)
+#2 /Applications/MAMP/htdocs/cash-master/lib/cash.php(383): DB->exec('INSERT INTO cur...', '20')
+#3 /Applications/MAMP/htdocs/cash-master/lib/cash.php(431): Cash->add_refbook('20', 'currency')
+#4 /Applications/MAMP/htdocs/cash-master/lib/cash.php(591): Cash->refbook_check(Array, Array)
+#5 /Applications/MAMP/htdocs/cash-master/ajax/add.php(21): Cash->add(Array, Array)
+#6 {main}
+2022-11-24 20:34:32; host: localhost:8888; ip: ::1; file: /Applications/MAMP/htdocs/cash-master/lib/db/sqlite.php; line: 27; msg: [19] NOT NULL constraint failed: currency.rate; stack: #0 /Applications/MAMP/htdocs/cash-master/lib/db/sqlite.php(76): SQLITE_DB->raiseError()
+#1 /Applications/MAMP/htdocs/cash-master/lib/db/db.php(85): SQLITE_DB->_exec('INSERT INTO cur...', Array)
+#2 /Applications/MAMP/htdocs/cash-master/lib/cash.php(383): DB->exec('INSERT INTO cur...', '20')
+#3 /Applications/MAMP/htdocs/cash-master/lib/cash.php(431): Cash->add_refbook('20', 'currency')
+#4 /Applications/MAMP/htdocs/cash-master/lib/cash.php(591): Cash->refbook_check(Array, Array)
+#5 /Applications/MAMP/htdocs/cash-master/ajax/add.php(21): Cash->add(Array, Array)
+#6 {main}
+2022-11-24 20:34:35; host: localhost:8888; ip: ::1; file: /Applications/MAMP/htdocs/cash-master/lib/db/sqlite.php; line: 27; msg: [19] NOT NULL constraint failed: currency.rate; stack: #0 /Applications/MAMP/htdocs/cash-master/lib/db/sqlite.php(76): SQLITE_DB->raiseError()
+#1 /Applications/MAMP/htdocs/cash-master/lib/db/db.php(85): SQLITE_DB->_exec('INSERT INTO cur...', Array)
+#2 /Applications/MAMP/htdocs/cash-master/lib/cash.php(383): DB->exec('INSERT INTO cur...', '20')
+#3 /Applications/MAMP/htdocs/cash-master/lib/cash.php(431): Cash->add_refbook('20', 'currency')
+#4 /Applications/MAMP/htdocs/cash-master/lib/cash.php(591): Cash->refbook_check(Array, Array)
+#5 /Applications/MAMP/htdocs/cash-master/ajax/add.php(21): Cash->add(Array, Array)
+#6 {main}
